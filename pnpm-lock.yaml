@@ -236,7 +236,7 @@ packages:
     version: 0.1.0-rc.2
 
   '@todoflowy/plugin-toolkit@file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz':
-    resolution: {integrity: sha512-YTm/+I5RJypuyRDxnnDimTioREr0nGeyP7Q4iKqqjnLgLDkwZ0WhBbfsu4pmdIquDZHIn5JzV4RTH9EJuEh5bQ==, tarball: file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz}
+    resolution: {integrity: sha512-guIIpDjH/nPujROi7fiPkhiU4blhtEuyY1z4fge13vr2IUvLBS+ahJ5KQ2pyACUhWK+Z3wylU75tPf02vjt+ig==, tarball: file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz}
     version: 0.1.0-rc.2
     hasBin: true
 
