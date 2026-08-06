@@ -2,6 +2,8 @@
 
 TodoFlowy 可视化会议日历与甘特图插件 (`todoflowy/meeting-calendar-visualizer`)。
 
+主界面使用 `meeting-view` 挂载在 TodoFlowy 的“会议”工作区主内容区，不会出现在插件导航栏或侧边栏折叠入口中。`sidebar-panel` 仅适合窄侧栏内容。
+
 ## 特性
 
 - **三视图支持**：周视图 (Week View)、月视图 (Month View) 和甘特图视图 (Gantt View)

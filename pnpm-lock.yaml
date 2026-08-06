@@ -5,32 +5,32 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz
-  '@todoflowy/plugin-package-validator': file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.1.tgz
-  '@todoflowy/plugin-runtime': file:vendor/todoflowy-plugin-runtime-0.1.0-rc.1.tgz
-  '@todoflowy/plugin-sdk': file:vendor/todoflowy-plugin-sdk-0.1.0-rc.1.tgz
-  '@todoflowy/plugin-toolkit': file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.1.tgz
+  '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz
+  '@todoflowy/plugin-package-validator': file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.2.tgz
+  '@todoflowy/plugin-runtime': file:vendor/todoflowy-plugin-runtime-0.1.0-rc.2.tgz
+  '@todoflowy/plugin-sdk': file:vendor/todoflowy-plugin-sdk-0.1.0-rc.2.tgz
+  '@todoflowy/plugin-toolkit': file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz
 
 importers:
 
   .:
     dependencies:
       '@todoflowy/plugin-contracts':
-        specifier: file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz
-        version: file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz
+        specifier: file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz
+        version: file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz
       '@todoflowy/plugin-sdk':
-        specifier: file:vendor/todoflowy-plugin-sdk-0.1.0-rc.1.tgz
-        version: file:vendor/todoflowy-plugin-sdk-0.1.0-rc.1.tgz
+        specifier: file:vendor/todoflowy-plugin-sdk-0.1.0-rc.2.tgz
+        version: file:vendor/todoflowy-plugin-sdk-0.1.0-rc.2.tgz
     devDependencies:
       '@todoflowy/plugin-package-validator':
-        specifier: file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.1.tgz
-        version: file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.1.tgz
+        specifier: file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.2.tgz
+        version: file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.2.tgz
       '@todoflowy/plugin-runtime':
-        specifier: file:vendor/todoflowy-plugin-runtime-0.1.0-rc.1.tgz
-        version: file:vendor/todoflowy-plugin-runtime-0.1.0-rc.1.tgz
+        specifier: file:vendor/todoflowy-plugin-runtime-0.1.0-rc.2.tgz
+        version: file:vendor/todoflowy-plugin-runtime-0.1.0-rc.2.tgz
       '@todoflowy/plugin-toolkit':
-        specifier: file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.1.tgz
-        version: file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.1.tgz
+        specifier: file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz
+        version: file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz
       '@types/node':
         specifier: 24.10.0
         version: 24.10.0
@@ -219,25 +219,25 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@todoflowy/plugin-contracts@file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz':
-    resolution: {integrity: sha512-M1jvfWANAbN47HTBRCvDV1lX2FcY2nK6rnc2+8yIt3Vip7ALt/fuBYVCLNnXM+w9KnR/TPjsxdWZbuVW6TAz4g==, tarball: file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz}
-    version: 0.1.0-rc.1
+  '@todoflowy/plugin-contracts@file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz':
+    resolution: {integrity: sha512-uJorySd6tNN0TOymwtQsJZczRiVTkeLPHRgsR+v3ovijosO+W6YnN+cgR3m4czZPXE1CiT95Lu0LGktDpOknhw==, tarball: file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz}
+    version: 0.1.0-rc.2
 
-  '@todoflowy/plugin-package-validator@file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.1.tgz':
-    resolution: {integrity: sha512-xwaP7hvIA2nMkppGk2rhVVFWbYUT942vKP+6LITOsj4Iv5iHhiW4Bp8sU0l/5vscQ8L65rbtm3Z1sLYVq6yR5g==, tarball: file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.1.tgz}
-    version: 0.1.0-rc.1
+  '@todoflowy/plugin-package-validator@file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.2.tgz':
+    resolution: {integrity: sha512-afGlGsKaoajeNZInmHdkyewuo1wAfA41G7hf/838vYcBXrcfYDM4eHJnT3rmo6ygCBCl94UwqD7oOIql3yjCIw==, tarball: file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.2.tgz}
+    version: 0.1.0-rc.2
 
-  '@todoflowy/plugin-runtime@file:vendor/todoflowy-plugin-runtime-0.1.0-rc.1.tgz':
-    resolution: {integrity: sha512-U7qcBfnE20UOk60aOTdQVsaY9Y7sh5ilF3ukP2t0SBarbzuG2cec7Q3ZHyehKZohVlITlzffkeHiQbrx+mu/pQ==, tarball: file:vendor/todoflowy-plugin-runtime-0.1.0-rc.1.tgz}
-    version: 0.1.0-rc.1
+  '@todoflowy/plugin-runtime@file:vendor/todoflowy-plugin-runtime-0.1.0-rc.2.tgz':
+    resolution: {integrity: sha512-iIScmTCV9QGfz5MbF9yRk2AaEQhBLp3OFM1u61daqt0Eqxkj7YHKCOW+mwkmuoc/xMj4f0NbM2JIGmaRwIT3Kw==, tarball: file:vendor/todoflowy-plugin-runtime-0.1.0-rc.2.tgz}
+    version: 0.1.0-rc.2
 
-  '@todoflowy/plugin-sdk@file:vendor/todoflowy-plugin-sdk-0.1.0-rc.1.tgz':
-    resolution: {integrity: sha512-8fG3LajotRhARWFJMW2CMpC5XUtbKc/a2glF/rcMgr6ecYIIscPNcbv28wcJAfGA2LuUxjigNJz3sVZyG3nbmw==, tarball: file:vendor/todoflowy-plugin-sdk-0.1.0-rc.1.tgz}
-    version: 0.1.0-rc.1
+  '@todoflowy/plugin-sdk@file:vendor/todoflowy-plugin-sdk-0.1.0-rc.2.tgz':
+    resolution: {integrity: sha512-I5vZnxG7XBwT6zbTjSZCW8xmr8n3his8Uv6dXoNhMOQHUyIHMiSBQQRq0iYB6rpJzqQ5iwQ1obeL//5gLYI7UQ==, tarball: file:vendor/todoflowy-plugin-sdk-0.1.0-rc.2.tgz}
+    version: 0.1.0-rc.2
 
-  '@todoflowy/plugin-toolkit@file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.1.tgz':
-    resolution: {integrity: sha512-yhOdqIThtN98xI80dmh585vxKxjF90WvrJm4V/nAQc7+v/Lp4KUJDk0wQnvfPQVQKc5zHDEI4h8AdwMgA1NN2A==, tarball: file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.1.tgz}
-    version: 0.1.0-rc.1
+  '@todoflowy/plugin-toolkit@file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz':
+    resolution: {integrity: sha512-YTm/+I5RJypuyRDxnnDimTioREr0nGeyP7Q4iKqqjnLgLDkwZ0WhBbfsu4pmdIquDZHIn5JzV4RTH9EJuEh5bQ==, tarball: file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz}
+    version: 0.1.0-rc.2
     hasBin: true
 
   '@types/chai@5.2.3':
@@ -857,33 +857,33 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@todoflowy/plugin-contracts@file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz':
+  '@todoflowy/plugin-contracts@file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz':
     dependencies:
       '@sinclair/typebox': 0.34.52
 
-  '@todoflowy/plugin-package-validator@file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.1.tgz':
+  '@todoflowy/plugin-package-validator@file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.2.tgz':
     dependencies:
       '@sinclair/typebox': 0.34.52
-      '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz
+      '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz
       acorn: 8.18.0
       fflate: 0.8.2
       semver: 7.7.2
 
-  '@todoflowy/plugin-runtime@file:vendor/todoflowy-plugin-runtime-0.1.0-rc.1.tgz':
+  '@todoflowy/plugin-runtime@file:vendor/todoflowy-plugin-runtime-0.1.0-rc.2.tgz':
     dependencies:
       '@sinclair/typebox': 0.34.52
-      '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz
+      '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz
 
-  '@todoflowy/plugin-sdk@file:vendor/todoflowy-plugin-sdk-0.1.0-rc.1.tgz':
+  '@todoflowy/plugin-sdk@file:vendor/todoflowy-plugin-sdk-0.1.0-rc.2.tgz':
     dependencies:
       '@sinclair/typebox': 0.34.52
-      '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz
+      '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz
 
-  '@todoflowy/plugin-toolkit@file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.1.tgz':
+  '@todoflowy/plugin-toolkit@file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz':
     dependencies:
-      '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz
-      '@todoflowy/plugin-package-validator': file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.1.tgz
-      '@todoflowy/plugin-runtime': file:vendor/todoflowy-plugin-runtime-0.1.0-rc.1.tgz
+      '@todoflowy/plugin-contracts': file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz
+      '@todoflowy/plugin-package-validator': file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.2.tgz
+      '@todoflowy/plugin-runtime': file:vendor/todoflowy-plugin-runtime-0.1.0-rc.2.tgz
       fflate: 0.8.2
 
   '@types/chai@5.2.3':

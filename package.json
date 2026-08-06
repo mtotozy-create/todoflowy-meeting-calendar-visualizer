@@ -1,6 +1,6 @@
 {
   "name": "@todoflowy/plugin-meeting-calendar-visualizer-source",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "license": "MIT",
   "repository": {
@@ -14,11 +14,11 @@
   },
   "pnpm": {
     "overrides": {
-      "@todoflowy/plugin-contracts": "file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz",
-      "@todoflowy/plugin-package-validator": "file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.1.tgz",
-      "@todoflowy/plugin-runtime": "file:vendor/todoflowy-plugin-runtime-0.1.0-rc.1.tgz",
-      "@todoflowy/plugin-sdk": "file:vendor/todoflowy-plugin-sdk-0.1.0-rc.1.tgz",
-      "@todoflowy/plugin-toolkit": "file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.1.tgz"
+      "@todoflowy/plugin-contracts": "file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz",
+      "@todoflowy/plugin-package-validator": "file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.2.tgz",
+      "@todoflowy/plugin-runtime": "file:vendor/todoflowy-plugin-runtime-0.1.0-rc.2.tgz",
+      "@todoflowy/plugin-sdk": "file:vendor/todoflowy-plugin-sdk-0.1.0-rc.2.tgz",
+      "@todoflowy/plugin-toolkit": "file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz"
     }
   },
   "scripts": {
@@ -30,13 +30,13 @@
     "verify": "corepack pnpm build && corepack pnpm typecheck && corepack pnpm test"
   },
   "dependencies": {
-    "@todoflowy/plugin-contracts": "file:vendor/todoflowy-plugin-contracts-0.1.0-rc.1.tgz",
-    "@todoflowy/plugin-sdk": "file:vendor/todoflowy-plugin-sdk-0.1.0-rc.1.tgz"
+    "@todoflowy/plugin-contracts": "file:vendor/todoflowy-plugin-contracts-0.1.0-rc.2.tgz",
+    "@todoflowy/plugin-sdk": "file:vendor/todoflowy-plugin-sdk-0.1.0-rc.2.tgz"
   },
   "devDependencies": {
-    "@todoflowy/plugin-package-validator": "file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.1.tgz",
-    "@todoflowy/plugin-runtime": "file:vendor/todoflowy-plugin-runtime-0.1.0-rc.1.tgz",
-    "@todoflowy/plugin-toolkit": "file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.1.tgz",
+    "@todoflowy/plugin-package-validator": "file:vendor/todoflowy-plugin-package-validator-0.1.0-rc.2.tgz",
+    "@todoflowy/plugin-runtime": "file:vendor/todoflowy-plugin-runtime-0.1.0-rc.2.tgz",
+    "@todoflowy/plugin-toolkit": "file:vendor/todoflowy-plugin-toolkit-0.1.0-rc.2.tgz",
     "@types/node": "24.10.0",
     "@vitest/coverage-v8": "4.1.10",
     "acorn": "8.18.0",

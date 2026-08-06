@@ -1,32 +1,32 @@
 {
   "repository": "mtotozy-create/todoflowy-plugin-platform",
-  "release": "platform-v0.1.0-rc.1",
-  "sourceCommit": "03857369ad3cb578aaa1b89e8d27620c2ba75acc",
+  "release": "platform-v0.1.0-rc.2",
+  "sourceCommit": "a9aad97d568c04c2278db8d453e2c1b6c0723743",
   "assets": [
     {
-      "name": "todoflowy-plugin-contracts-0.1.0-rc.1.tgz",
-      "size": 36353,
-      "sha256": "b42e14469c60eb80297ef0def2581ffc4626e07334e3014d438ed791f534d0ca"
+      "name": "todoflowy-plugin-contracts-0.1.0-rc.2.tgz",
+      "size": 36590,
+      "sha256": "ec2ec93037af115e84fea2a97da81a35544639b65f2277a37fb688694ac6783e"
     },
     {
-      "name": "todoflowy-plugin-package-validator-0.1.0-rc.1.tgz",
+      "name": "todoflowy-plugin-package-validator-0.1.0-rc.2.tgz",
       "size": 12632,
-      "sha256": "09626a85a853af1a613a140abdf424d781f927900a1ebf9a8a6c6e02bfcc904e"
+      "sha256": "55e8953ff05e1d6b4f33af4ec380111c27283a3bacc7f87355bf8bc7b59b52b8"
     },
     {
-      "name": "todoflowy-plugin-runtime-0.1.0-rc.1.tgz",
+      "name": "todoflowy-plugin-runtime-0.1.0-rc.2.tgz",
       "size": 16760,
-      "sha256": "176a495b86ca3871ac01267f5a32b87c4cc47e228ec395ad25cbf6e611ccaab1"
+      "sha256": "392b6987d1b49e4b9c3234c8c63036ac82ee71474a2916cf9c9d4aa7ed81ef8a"
     },
     {
-      "name": "todoflowy-plugin-sdk-0.1.0-rc.1.tgz",
-      "size": 8714,
-      "sha256": "45528f173dfe620d7050db93538c578088acf49eb3e7ea145d6161a03f2cf0cd"
+      "name": "todoflowy-plugin-sdk-0.1.0-rc.2.tgz",
+      "size": 8715,
+      "sha256": "dda591d5a27256131768b6fc95561b3cf41033cb10f079fef4d70440cfd9236a"
     },
     {
-      "name": "todoflowy-plugin-toolkit-0.1.0-rc.1.tgz",
-      "size": 20366,
-      "sha256": "fc5dc8c0de88888201eeb33d851347ce22b9af47741c23366179bf3f6d017d4b"
+      "name": "todoflowy-plugin-toolkit-0.1.0-rc.2.tgz",
+      "size": 20378,
+      "sha256": "181f0194a25543df7de16a6002c66471535e4944c341c5747b7b5b33ce8a1133"
     }
   ]
 }

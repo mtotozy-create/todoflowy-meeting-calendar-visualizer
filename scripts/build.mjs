@@ -4,7 +4,7 @@ import { build } from "vite";
 
 const pluginRoot = resolve(import.meta.dirname, "..");
 const output = resolve(pluginRoot, "dist");
-const entries = ["runtime", "sidebar-view", "settings"];
+const entries = ["runtime", "meeting-view", "settings"];
 
 await rm(output, { force: true, recursive: true });
 

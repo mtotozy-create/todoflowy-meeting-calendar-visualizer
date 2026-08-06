@@ -2,12 +2,12 @@
   "manifestVersion": 2,
   "id": "todoflowy/meeting-calendar-visualizer",
   "name": "Meeting Calendar Visualizer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Visual meeting calendar with week/month/gantt views, duration heatmap, multi-tag filtering and conflict highlighting for personal and team meetings.",
   "author": "TodoFlowy Official",
   "homepage": "https://todoflowy.com",
   "engines": {
-    "todoflowy": ">=0.3.2 <0.4.0",
+    "todoflowy": ">=0.3.13 <0.4.0",
     "pluginApi": "^1.0.0"
   },
   "runtime": {
@@ -20,9 +20,9 @@
   },
   "extensions": [
     {
-      "slot": "sidebar-panel",
-      "id": "meeting-calendar-panel",
-      "entry": "dist/sidebar-view.js",
+      "slot": "meeting-view",
+      "id": "meeting-calendar-view",
+      "entry": "dist/meeting-view.js",
       "label": "Meeting Calendar",
       "capabilities": [
         "meetings:read",

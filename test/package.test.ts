@@ -14,7 +14,7 @@ const cli = resolve(
 );
 const compatibility = [
   "--todoflowy-version",
-  "0.3.6",
+  "0.3.13",
   "--plugin-api-range",
   "^1.0.0",
 ];
@@ -70,7 +70,7 @@ describe("Meeting Calendar Visualizer deterministic package", () => {
     const validated = run(["validate", first, ...compatibility]);
     expect(validated.status).toBe(0);
     expect(validated.stdout).toMatch(
-      /^valid todoflowy\/meeting-calendar-visualizer@1\.0\.1 size=\d+ sha256=[a-f0-9]{64}\n$/,
+      /^valid todoflowy\/meeting-calendar-visualizer@1\.0\.2 size=\d+ sha256=[a-f0-9]{64}\n$/,
     );
 
     const inspected = run(["inspect", first, ...compatibility]);
@@ -80,9 +80,9 @@ describe("Meeting Calendar Visualizer deterministic package", () => {
       sha256: string;
     };
     expect(value.entries.map(({ path }) => path)).toEqual([
+      "dist/meeting-view.js",
       "dist/runtime.js",
       "dist/settings.js",
-      "dist/sidebar-view.js",
       "manifest.json",
     ]);
 
