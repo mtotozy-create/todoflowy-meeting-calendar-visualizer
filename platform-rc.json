@@ -1,7 +1,7 @@
 {
   "repository": "mtotozy-create/todoflowy-plugin-platform",
   "release": "platform-v0.1.0-rc.1",
-  "sourceCommit": "a17f694e9efbfefee8bf20a955bd13c7bc374a2a",
+  "sourceCommit": "03857369ad3cb578aaa1b89e8d27620c2ba75acc",
   "assets": [
     {
       "name": "todoflowy-plugin-contracts-0.1.0-rc.1.tgz",

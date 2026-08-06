@@ -70,7 +70,7 @@ describe("Meeting Calendar Visualizer deterministic package", () => {
     const validated = run(["validate", first, ...compatibility]);
     expect(validated.status).toBe(0);
     expect(validated.stdout).toMatch(
-      /^valid todoflowy\/meeting-calendar-visualizer@1\.0\.0 size=\d+ sha256=[a-f0-9]{64}\n$/,
+      /^valid todoflowy\/meeting-calendar-visualizer@1\.0\.1 size=\d+ sha256=[a-f0-9]{64}\n$/,
     );
 
     const inspected = run(["inspect", first, ...compatibility]);

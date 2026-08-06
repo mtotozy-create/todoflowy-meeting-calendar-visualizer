@@ -2,7 +2,7 @@
   "manifestVersion": 2,
   "id": "todoflowy/meeting-calendar-visualizer",
   "name": "Meeting Calendar Visualizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Visual meeting calendar with week/month/gantt views, duration heatmap, multi-tag filtering and conflict highlighting for personal and team meetings.",
   "author": "TodoFlowy Official",
   "homepage": "https://todoflowy.com",
