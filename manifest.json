@@ -1,0 +1,57 @@
+{
+  "manifestVersion": 2,
+  "id": "todoflowy/meeting-calendar-visualizer",
+  "name": "Meeting Calendar Visualizer",
+  "version": "1.0.0",
+  "description": "Visual meeting calendar with week/month/gantt views, duration heatmap, multi-tag filtering and conflict highlighting for personal and team meetings.",
+  "author": "TodoFlowy Official",
+  "homepage": "https://todoflowy.com",
+  "engines": {
+    "todoflowy": ">=0.3.2 <0.4.0",
+    "pluginApi": "^1.0.0"
+  },
+  "runtime": {
+    "entry": "dist/runtime.js",
+    "capabilities": [
+      "meetings:read",
+      "meetings:team:read",
+      "ui:toast"
+    ]
+  },
+  "extensions": [
+    {
+      "slot": "sidebar-panel",
+      "id": "meeting-calendar-panel",
+      "entry": "dist/sidebar-view.js",
+      "label": "Meeting Calendar",
+      "capabilities": [
+        "meetings:read",
+        "meetings:team:read",
+        "storage:read",
+        "storage:write",
+        "theme:read",
+        "context:locale",
+        "ui:toast"
+      ]
+    },
+    {
+      "slot": "toolbar-action",
+      "id": "meeting-calendar-refresh",
+      "command": "meeting-calendar-visualizer.refresh",
+      "label": "Refresh Meeting Calendar",
+      "icon": "refresh-cw"
+    },
+    {
+      "slot": "settings-section",
+      "id": "meeting-calendar-settings",
+      "entry": "dist/settings.js",
+      "label": "Meeting Calendar Settings",
+      "capabilities": [
+        "storage:read",
+        "storage:write",
+        "theme:read",
+        "context:locale"
+      ]
+    }
+  ]
+}

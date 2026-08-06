@@ -1,0 +1,23 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "todoflowy-meeting-calendar-visualizer-1.0.0",
+  "documentNamespace": "https://todoflowy.com/spdx/todoflowy-meeting-calendar-visualizer/1.0.0",
+  "creationInfo": {
+    "created": "2026-08-06T00:00:00Z",
+    "creators": ["Organization: TodoFlowy Official"]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-todoflowy-meeting-calendar-visualizer",
+      "name": "todoflowy-meeting-calendar-visualizer",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "https://github.com/mtotozy-create/todoflowy-meeting-calendar-visualizer",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
